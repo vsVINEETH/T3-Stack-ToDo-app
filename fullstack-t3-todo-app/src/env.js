@@ -30,7 +30,7 @@ export const env = createEnv({
 
   /**
    * You can't destruct `process.env` as a regular object in the Next.js edge runtimes (e.g.
-   * middlewares) or client-side so we need to destruct manually.
+   * middlewares) or client-side s o we need to destruct manually.
    */
   runtimeEnv: {
     AUTH_SECRET: process.env.AUTH_SECRET,
